@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Beyonds Logic | Home</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+          <a class="navbar-brand main-logo" href="#">
+            <img
+              src="assets/images/beyondslogic_transparent_white.png"
+              alt="Beyonds Logic"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav main-menu">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="services.html"
+                  id="servicesDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                  <li>
+                    <a class="dropdown-item" href="services.html">Services</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Service 1</a></li>
+                  <li><a class="dropdown-item" href="#">Service 2</a></li>
+                  <li><a class="dropdown-item" href="#">Service 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Slider -->
+    <div
+      id="mainSlider"
+      class="carousel slide main-slider"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#mainSlider"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#mainSlider"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#mainSlider"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assets/images/slide-one.jpg"
+            class="d-block w-100"
+            alt="Slide One"
+          />
+          <div class="carousel-caption">
+            <h5>Welcome with your idea</h5>
+            <h1>We helping convert idea into reality</h1>
+            <p>
+              Nullam tempus sapien et leo dictum placerat. Donec et consectetur
+              orci.
+            </p>
+            <a class="btn btn-primary btn-style" href="#">Learn More</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/slide-two.jpg"
+            class="d-block w-100"
+            alt="Slide Two"
+          />
+          <div class="carousel-caption">
+            <h5>Welcome with your idea</h5>
+            <h1>We helping convert idea into reality</h1>
+            <p>
+              Nullam tempus sapien et leo dictum placerat. Donec et consectetur
+              orci.
+            </p>
+            <a class="btn btn-primary btn-style" href="#">Learn More</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/slide-three.jpg"
+            class="d-block w-100"
+            alt="Slide Three"
+          />
+          <div class="carousel-caption">
+            <h5>Welcome with your idea</h5>
+            <h1>We helping convert idea into reality</h1>
+            <p>
+              Nullam tempus sapien et leo dictum placerat. Donec et consectetur
+              orci.
+            </p>
+            <a class="btn btn-primary btn-style" href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#mainSlider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#mainSlider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Company Section -->
+    <div class="section company-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12">
+            <img
+              src="assets/images/company-img.jpg"
+              class="img-fluid rounded shadow-lg"
+              alt="Company"
+            />
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="heading-style">
+              <h5>About Company</h5>
+              <h2>We are providing quality products</h2>
+              <div class="divider"></div>
+            </div>
+
+            <p>
+              Duis faucibus id metus at placerat. Nam diam nunc, blandit at
+              risus sit amet, placerat blandit elit. Suspendisse potenti.
+              Phasellus cursus mi leo, et facilisis orci tristique ac. Aliquam
+              vestibulum tincidunt luctus. Sed nisl nisi, molestie suscipit
+              aliquet eget, condimentum quis velit. Suspendisse non tempus nisi.
+              Etiam nunc risus, fermentum ut cursus at, ultricies sit amet quam.
+            </p>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="services-list">
+                  <i class="bi bi-check2"></i>
+                  <p>Small & large business websites with support</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="services-list">
+                  <i class="bi bi-check2"></i>
+                  <p>Small & large business websites with support</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="services-list">
+                  <i class="bi bi-check2"></i>
+                  <p>Small & large business websites with support</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="services-list">
+                  <i class="bi bi-check2"></i>
+                  <p>Small & large business websites with support</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="company-info rounded shadow-lg">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="info-box">
+                    <i class="bi bi-journal-code"></i>
+                    <h3>567</h3>
+                    <p class="mb-0"><small>Projects Completed</small></p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="info-box">
+                    <i class="bi bi-journal-code"></i>
+                    <h3>15</h3>
+                    <p class="mb-0"><small>Active clients</small></p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="info-box">
+                    <i class="bi bi-journal-code"></i>
+                    <h3>46</h3>
+                    <p class="mb-0"><small>Company Size</small></p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="info-box border-end-0 border-bottom-0">
+                    <i class="bi bi-journal-code"></i>
+                    <h3>567</h3>
+                    <p class="mb-0"><small>Happy clients</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="section faq-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="heading-style">
+              <h5>Frequently asked questions</h5>
+              <h2>We’re here to change your business look</h2>
+              <div class="divider"></div>
+            </div>
+
+            <p>
+              Duis faucibus id metus at placerat. Nam diam nunc, blandit at
+              risus sit amet, placerat blandit elit.
+            </p>
+
+            <div
+              class="accordion accordion-flush faq-accordions"
+              id="faqAccordions"
+            >
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Reasons why you should choose us
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#faqAccordions"
+                >
+                  <div class="accordion-body">
+                    Duis faucibus id metus at placerat. Nam diam nunc, blandit
+                    at risus sit amet, placerat blandit elit. Suspendisse
+                    potenti. Phasellus cursus mi leo, et facilisis orci
+                    tristique ac. Aliquam vestibulum tincidunt luctus. Sed nisl
+                    nisi, molestie suscipit aliquet eget, condimentum quis
+                    velit. Suspendisse non tempus nisi. Etiam nunc risus,
+                    fermentum ut cursus at, ultricies sit amet quam. Vestibulum
+                    porttitor arcu nec vestibulum lobortis.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Reasons why you should choose us
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#faqAccordions"
+                >
+                  <div class="accordion-body">
+                    Duis faucibus id metus at placerat. Nam diam nunc, blandit
+                    at risus sit amet, placerat blandit elit. Suspendisse
+                    potenti. Phasellus cursus mi leo, et facilisis orci
+                    tristique ac. Aliquam vestibulum tincidunt luctus. Sed nisl
+                    nisi, molestie suscipit aliquet eget, condimentum quis
+                    velit. Suspendisse non tempus nisi. Etiam nunc risus,
+                    fermentum ut cursus at, ultricies sit amet quam. Vestibulum
+                    porttitor arcu nec vestibulum lobortis.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Reasons why you should choose us
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#faqAccordions"
+                >
+                  <div class="accordion-body">
+                    Duis faucibus id metus at placerat. Nam diam nunc, blandit
+                    at risus sit amet, placerat blandit elit. Suspendisse
+                    potenti. Phasellus cursus mi leo, et facilisis orci
+                    tristique ac. Aliquam vestibulum tincidunt luctus. Sed nisl
+                    nisi, molestie suscipit aliquet eget, condimentum quis
+                    velit. Suspendisse non tempus nisi. Etiam nunc risus,
+                    fermentum ut cursus at, ultricies sit amet quam. Vestibulum
+                    porttitor arcu nec vestibulum lobortis.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="assets/images/faq-img.jpg"
+              class="img-fluid rounded shadow-lg"
+              alt="FAQ"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Call to action -->
+    <div class="section call-to-action">
+      <div class="container">
+        <div class="heading-style text-center mx-auto">
+          <h5 class="text-white mb-3">Frequently asked questions</h5>
+          <h2 class="text-white mb-4">
+            We’re here to change your business look
+          </h2>
+          <a href="#" class="btn btn-primary btn-style">Free Consulation</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="section services-section">
+      <div class="container">
+        <div class="heading-style text-center">
+          <h5>Our services</h5>
+          <h2>We Are Offering</h2>
+          <div class="divider mx-auto"></div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <div class="services-box shadow">
+              <div class="icon shadow-lg mx-auto">
+                <i class="bi bi-rulers"></i>
+              </div>
+              <h3>Website Design</h3>
+              <p>Etiam ac mi commodo, consequat sapien vitae, ornare purus.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="services-box shadow">
+              <div class="icon shadow-lg mx-auto">
+                <i class="bi bi-code-square"></i>
+              </div>
+              <h3>Website Development</h3>
+              <p>Etiam ac mi commodo, consequat sapien vitae, ornare purus.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="services-box shadow mb-0">
+              <div class="icon shadow-lg mx-auto">
+                <i class="bi bi-cloud-upload"></i>
+              </div>
+              <h3>Web Application</h3>
+              <p>Etiam ac mi commodo, consequat sapien vitae, ornare purus.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="section progress-section pt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="heading-style">
+              <h5>Business quality wesites and web application</h5>
+              <h2>We are developing quality and fast websites for you</h2>
+              <div class="divider"></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-box">
+              <small>Website Design</small>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style="width: 100%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  100%
+                </div>
+              </div>
+            </div>
+
+            <div class="progress-box">
+              <small>Website Development</small>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 100%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  100%
+                </div>
+              </div>
+            </div>
+
+            <div class="progress-box">
+              <small>Web Application</small>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-warning"
+                  role="progressbar"
+                  style="width: 100%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  100%
+                </div>
+              </div>
+            </div>
+
+            <div class="progress-box">
+              <small>Mobile App Development</small>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  style="width: 100%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  100%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Section -->
+    <div class="section blog-section">
+      <div class="container">
+        <div class="heading-style text-center">
+          <h5>Our Blog</h5>
+          <h2>Lates New from Blog</h2>
+          <div class="divider mx-auto"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="blog-post card shadow">
+              <img
+                src="assets/images/post-1.jpg"
+                alt="Post"
+                class="card-img-top"
+              />
+
+              <div class="card-body">
+                <div class="post-meta">
+                  <div class="me-3">
+                    <i class="bi bi-person-fill"></i>
+                    <small>Abdul Mughni</small>
+                  </div>
+
+                  <div class="me-3">
+                    <i class="bi bi-chat-dots-fill"></i>
+                    <small>10 Comments</small>
+                  </div>
+
+                  <div class="me-3">
+                    <i class="bi bi-calendar-check-fill"></i>
+                    <small>15 Feb</small>
+                  </div>
+                </div>
+
+                <h3>Bootstrap is most popular framework</h3>
+                <p>
+                  Etiam ac mi commodo, consequat sapien vitae, ornare purus.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blog-post card shadow">
+              <img
+                src="assets/images/post-2.jpg"
+                alt="Post"
+                class="card-img-top"
+              />
+
+              <div class="card-body">
+                <div class="post-meta">
+                  <div class="me-3">
+                    <i class="bi bi-person-fill"></i>
+                    <small>Abdul Mughni</small>
+                  </div>
+
+                  <div class="me-3">
+                    <i class="bi bi-chat-dots-fill"></i>
+                    <small>10 Comments</small>
+                  </div>
+
+                  <div class="me-3">
+                    <i class="bi bi-calendar-check-fill"></i>
+                    <small>15 Feb</small>
+                  </div>
+                </div>
+
+                <h3>Bootstrap is most popular framework</h3>
+                <p>
+                  Etiam ac mi commodo, consequat sapien vitae, ornare purus.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blog-post card shadow">
+              <img
+                src="assets/images/post-3.jpg"
+                alt="Post"
+                class="card-img-top"
+              />
+
+              <div class="card-body">
+                <div class="post-meta">
+                  <div class="me-3">
+                    <i class="bi bi-person-fill"></i>
+                    <small>Abdul Mughni</small>
+                  </div>
+
+                  <div class="me-3">
+                    <i class="bi bi-chat-dots-fill"></i>
+                    <small>10 Comments</small>
+                  </div>
+
+                  <div class="me-3">
+                    <i class="bi bi-calendar-check-fill"></i>
+                    <small>15 Feb</small>
+                  </div>
+                </div>
+
+                <h3>Bootstrap is most popular framework</h3>
+                <p>
+                  Etiam ac mi commodo, consequat sapien vitae, ornare purus.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="section footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer-widget">
+              <img
+                src="assets/images/beyondslogic_transparent_white.png"
+                class="footer-logo"
+                alt="Beyonds Logic"
+              />
+              <p>
+                Welcome to our website design and development agency. Lore ipsum
+                simply text amet cing elit.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-widget">
+              <h3>Explore</h3>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html"> Services </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-widget">
+              <h3>Contact</h3>
+              <p class="mb-2">
+                66 Broklyn Street New York United States of America
+              </p>
+              <p class="mb-2"><a href="tel:+9212345678">+9212345678</a></p>
+              <p class="mb-0">
+                <a href="mailto:beyondslogic@gmail.com"
+                  >beyondslogic@gmail.com</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-widget">
+              <h3>Subscribe</h3>
+
+              <form action="" class="form-style dark-bg">
+                <div class="mb-3 form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="yourname"
+                    placeholder="Your Name"
+                  />
+                  <label for="yourname" class="form-label">Your Name</label>
+                </div>
+
+                <div class="mb-3 form-floating">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="youremail"
+                    placeholder="Your Email"
+                  />
+                  <label for="youremail" class="form-label">Your Email</label>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-style btn-small"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Socket -->
+    <div class="footer-socket">
+      <div class="container">© Copyright Beyonds Logic. All right reserved</div>
+    </div>
+
+    <!-- Popper and Bootstrap JS -->
+
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
